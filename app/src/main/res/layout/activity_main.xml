@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <ListView
+        android:id="@+id/list"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+    />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/id_get"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:hint="ID for get"/>
+
+    <Button
+        android:id="@+id/get_one"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="get" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/id_delete"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:hint="ID for delete"/>
+
+        <Button
+            android:id="@+id/one"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="delete" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/id_update"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:hint="ID for update"/>
+
+        <Button
+            android:id="@+id/update_one"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="update" />
+
+    </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="70dp"
+       android:orientation="horizontal"
+       android:gravity="center">
+
+       <Button
+           android:id="@+id/add"
+           style="@style/Widget.AppCompat.Button.Colored"
+           android:layout_width="70dp"
+           android:layout_height="60dp"
+           android:text="add" />
+
+       <Button
+           android:id="@+id/delete"
+           android:textColor="@android:color/white"
+           android:background="@android:color/holo_red_dark"
+           android:layout_width="100dp"
+           android:layout_height="60dp"
+           android:text="delete all" />
+
+   </LinearLayout>
+
+</LinearLayout>

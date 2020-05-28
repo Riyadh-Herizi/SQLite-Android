@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Update">
+
+    <TextView
+        android:id="@+id/user"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student with id : "
+        android:textSize="29sp"
+        android:layout_marginBottom="80dp"/>
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Full Name"
+        />
+    <EditText
+        android:id="@+id/matricule"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Matricule"
+        />
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/save"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="save" />
+
+</LinearLayout>
